@@ -158,7 +158,7 @@
     <button type="submit">Submit</button>
     
   </form>
-  <!--  -->
+  <!--Use the value attribute with Radio Buttons and Checkboxes  -->
 
   <form action="https://www.freecatphotoapp.com/submit-cat-photo">
     <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
@@ -176,8 +176,18 @@
 
     <button type="submit">Submit</button>
   </form>
+<!-- Check Radio Buttons and Checkboxes by Default -->
+<form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <br>
+    <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>
+    <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy" > Lazy</label>
+    <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <input type="radio" name="test-name" checked>
+    <input type="radio" name="test-name">
+    <button type="submit">Submit</button>
+  </form>
 </main>
-
 
 
 
